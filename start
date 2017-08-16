@@ -34,7 +34,7 @@ y2j() {
 }
 
 j2y() {
-  python -c 'import sys, yaml, json; yaml.safe_dump(json.load(sys.stdin), sys.stdout, indent=2, default_flow_style=False)'
+  python -c 'import sys, yaml, json; yaml.safe_dump(json.load(sys.stdin), sys.stdout, indent=4, default_flow_style=False)'
 }
 
 yq() {
